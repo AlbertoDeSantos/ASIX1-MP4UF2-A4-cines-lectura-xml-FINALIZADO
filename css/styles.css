@@ -1,91 +1,106 @@
-html{
+html {
     font-size: 16px;
 }
 
+
 /* Redimensión de fuente utilizando rem */
-p{
+
+p {
     font-size: 1rem;
 }
 
-h1{
+h1 {
     font-size: 3rem;
 }
 
-h2{
+h2 {
     font-size: 2rem;
 }
 
-h3{
+h3 {
     font-size: 1.6rem;
 }
 
-h4{
+h4 {
     font-size: 1.3rem;
 }
 
-h5{
+h5 {
     font-size: 1.15rem;
 }
 
-h6{
+h6 {
     font-size: 1.05rem;
 }
+
+
 /**************************/
 
+
 /* clases predefinidas */
+
 * {
     box-sizing: border-box;
 }
 
-body{
+body {
     margin: 0;
 }
 
+
 /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
+
+
 /* Diseño de columnas */
-.column-1{
+
+.column-1 {
     width: 100%;
     float: left;
 }
 
-.column-2{
+.column-2 {
     width: 50%;
     float: left;
 }
 
-.column-3{
+.column-3 {
     width: 33.33%;
     float: left;
 }
 
-.column-4{
+.column-4 {
     width: 25%;
     float: left;
 }
 
-.column-5{
+.column-5 {
     width: 20%;
     float: left;
 }
 
-.column-6{
+.column-6 {
     width: 16.66%;
     float: left;
 }
 
-.column-75{
+.column-75 {
     width: 75%;
     float: left;
 }
 
+
 /* Otras clases */
+
+
 /* clase para centrar contenido en horizontal y vertical (lo centra respecto al elemento padre) */
-.flex{
+
+.flex {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,15 +108,15 @@ body{
 
 @media only screen and (max-width: 600px) {
     /* column-2 pasará de tener 50% a 100% */
-    .column-2{
+    .column-2 {
         width: 100%;
     }
     /* column-3 pasará de tener 33.33% a 100% */
-    .column-3{
+    .column-3 {
         width: 100%;
     }
     /* column-4 pasará de tener 25% a 50% */
-    .column-4{
+    .column-4 {
         width: 50%;
     }
 }

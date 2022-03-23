@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<films>
+    <film cine="Ocine">
+      <title>Parásitos</title>
+      <description tema="Social">(02h00min) - Ki-taek (Kang-ho Song) es el patriarca de una familia pobre que malvive en un piso bajo en Seúl, pagando las facturas a base de trabajos precarios y robando el wi-fi de los vecinos.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Hasta que la boda nos separe</title>
+      <description tema="Comedia">(01h59min)  - Cuando debido a un equívoco, Alexia (Silvia Alonso) descubra entre las cosas de su novio Carlos (Álex García), la tarjeta de visita de Marina (Belén Cuesta), su amiga de la infancia que se dedica a organizar bodas, y lo interprete como una propuesta de matrimonio, dirá que sí de inmediato. Claro que, los planes de boda plantearán muchos problemas que amenazarán su relación.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>La llamada de lo salvaje</title>
+      <description tema="Aventura">(01h40min)  - Película para todos los públicos basada en el clásico de la literatura de Jack London que narra la amistad entre el solitario John Thornton (Harrison Ford) y Buck, un perro obligado a tirar de un trineo durante la fiebre del oro en las salvajes tierras de Yukón. Juntos vivirán una aventura irrepetible en la que llegarán a donde nadie antes había llegado.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Sonic. La película</title>
+      <description tema="Aventura">(01h39min)  - Sonic, el famoso erizo azul de la conocida saga de videojuegos vivirá su primera aventura en la pantalla grande. En esta nueva aventura, el erizo azul deberá viajar hasta nuestro mundo para poder salvar el suyo, y contará con la ayuda de su amigo humano Tom Wachowski (James Marsden).
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Adú</title>
+      <description tema="Drama">(02h30min)  - Dos niños que intentan desesperadamente llegar hasta Europa desde Camerún. Un activista medioambiental que lucha contra la caza furtiva. Una muchedumbre de subsaharianos que tratan de saltar la valla de Melilla. Tres historias entrelazadas, inspiradas en millones de historias reales en torno al drama de la inmigración.
+      </description>
+    </film>
+    <film cine="Sensacine">
+      <title>Las aventuras del doctor Dolittle</title>
+      <description tema="Comedia">(01h42min)  - El afamado y excéntrico veterinario Dr. Dolittle (Robert Downey Jr.) vive junto a sus animales exóticos, que son su única compañía. Cuando la joven reina Victoria (Jessie Buckley) cae gravemente enferma, este peculiar doctor tendrá que viajar hasta una mítica isla en busca de una cura. Comedia familiar basada en el clásico de la literatura infantil creado por Hugh John Lofting.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Aves de Presa (y la fantabulosa emancipación de Harley Quinn)</title>
+      <description tema="Accion">(01h49min)  - Primera película en solitario de la súpervillana de DC Harley Quinn. Esta adaptación de los cómics Birds Of Prey de DC nos presenta a Harley Quinn (Margot Robbie) tras su emancipación del Joker, cuando decide aliarse con otras tres superheroínas para formar el grupo Aves de presa.
+      </description>
+    </film>
+    <film cine="Sensacine">
+      <title>Fantasy Island</title>
+      <description tema="Suspense">(01h50min)  - Un diverso grupo de personas llega a Fantasy Island, una particular y paradisíaca isla donde todo es posible, y que ofrece a sus visitantes la posibilidad de vivir una fantasía relacionada con sus vidas, mediante una experiencia de inmersión diseñada a medida. Pronto descubrirán que la isla no es lo que ellos creen, y se convertirá en su peor pesadilla.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>1917</title>
+      <description tema="Drama">(01h59min)  - Primera Guerra Mundial. Dos jóvenes soldados británicos a los que se les encomienda una misión estrictamente imposible: entregar un mensaje, en una carrera contrareloj, atravesando el territorio enemigo. El oscarizado director Sam Mendes dirige este drama bélico cuyo guión co-escribe junto a Krysty Wilson-Cairns.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Manhattan sin salida</title>
+      <description tema="Suspense">(01h41min)  - André Davis (Chadwick Boseman) es un policía de Nueva York que se ve envuelto junto con su scompañera Frankie Burns (Sienna Miller) en una persecución por toda la ciudad después de descubrir una masiva e inesperada conspiración. Este drama de acción lo producen los hermanos Anthony y Joe Russo, responsables de Vengadores: Endgame (2019).
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Bad Boys For Life</title>
+      <description tema="Accion">(02h04min)  - Los detectives Mike Lowrey (Will Smith) y Marcus Burnett (Martin Lawrence) vuelven a hacer de las suyas. Tercera entrega de la saga Dos policías rebeldes que dirigen Adil El Arbi y Bilall Fallah, responsbales de las películas Gangsta (2018) y Black (2015).
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>El escándalo (Bombshell)</title>
+      <description tema="Biografia">(01h50min)  - Película basada en hechos reales sobre el escándalo de 2016 en Fox News. Cuando la estrella televisiva Gretchen Carlson (Nicole Kidman) decida hablar, destapará todo un escándalo.
+      </description>
+    </film>
+    <film cine="Ocine">
+      <title>Malasaña 32</title>
+      <description tema="Terror">(01h59min)  - Finales de los 70. La familia Olmedo se instala en un antiguo piso en el número 32 de la calle Manuela Malasaña de Madrid. Pero, la casa que han comprado esconde más sombras que luces, y no están solos. Esta película de terror sobrenatural inspirada en hechos reales la dirige Albert Pintó, responsable de Matar a Dios (2017).
+      </description>
+    </film>
+    <film cine="CineComedia">
+      <title>Toy Story 4</title>
+      <description tema="Animacion">(01h40min)  - El sheriff Woody y el miembro del Comando Estelar Buzz Lightyear, junto al resto de la pandilla de juguetes, están a punto de hacer un viaje familiar por carretera con Bonnie, su querida dueña. Pero cuando aparece Forky, una manualidad hecha por Bonnie convertida en juguete, empiezan los problemas. Forky...
+      </description>
+    </film>
+</films>
