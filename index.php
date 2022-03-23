@@ -54,17 +54,13 @@ if (file_exists('xml/encartelera.xml')) {
 <div class="row">
     <div class="column-1">
     <?php
-    if (file_exists('xml/encartelera.xml')) {
-        $films = simplexml_load_file('xml/encartelera.xml');
-        foreach($films->film as $film){
-            echo $film->title.' - ';
-            // imprimir el contenido del atributo 'tema'
-            echo $film->description['tema'].'<br>';
-        }
-        //print_r($films);
-    } else {
-        exit('Error abriendo encartelera.xml.');
+    foreach($films->film as $film){
+        echo $film->title.' - ';
+        // imprimir el contenido del atributo 'tema'
+        echo $film->description['tema'].'<br>';
     }
+    //print_r($films);
+    
     ?>    
     
     </div>
