@@ -51,18 +51,16 @@ if (file_exists('xml/encartelera.xml')) {
 </nav>
 <!-- end Navbar -->
 
-<div class="row">
+<div class="row gx-0">
     <div class="column-1">
     <?php
     foreach($films->film as $film){
-        echo $film->title.' - ';
+        echo '<p>'.$film->title.' - ';
         // imprimir el contenido del atributo 'tema'
-        echo $film->description['tema'].'<br>';
+        echo $film->description['tema'].'</p>';
     }
     //print_r($films);
-    
     ?>    
-    
     </div>
 </div>
 
