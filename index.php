@@ -55,7 +55,7 @@ if (file_exists('xml/encartelera.xml')) {
 <!-- tabla de datos -->
 <div class="row-c">
     <div class="column-1">
-        <table class="table">
+        <table class="table table-striped table-hover">
             <thead>
                 <tr>
                     <th scope="col">Película</th>
