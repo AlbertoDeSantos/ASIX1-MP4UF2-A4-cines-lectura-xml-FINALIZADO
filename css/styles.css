@@ -50,7 +50,7 @@ body {
 
 /* Clear floats after the columns */
 
-.row:after {
+.row-c:after {
     content: "";
     display: table;
     clear: both;
