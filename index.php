@@ -51,11 +51,10 @@ if (file_exists('xml/encartelera.xml')) {
         </div>
     </div>
 </nav>
-<!-- end Navbar -->
 
+<!-- tabla de datos -->
 <div class="row-c">
     <div class="column-1">
-        <!-- tabla de datos -->
         <table class="table">
             <thead>
                 <tr>
