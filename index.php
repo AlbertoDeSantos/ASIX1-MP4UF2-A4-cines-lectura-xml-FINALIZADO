@@ -41,7 +41,11 @@ if (file_exists('xml/encartelera.xml')) {
                 foreach($films->film as $film){
                     if(!in_array((string)$film['cine'],$aux)){
                         echo '<li class="nav-item">';
-                        echo '<a class="nav-link active" aria-current="page" href="?cine='.$film['cine'].'">'.$film['cine'].'</a>';
+                        if(isset($_GET['cine']) && $_GET['cine']==(string)$film['cine']){
+                            echo '<a class="nav-link active" aria-current="page" href="?cine='.$film['cine'].'">'.$film['cine'].'</a>';
+                        }else{
+                            echo '<a class="nav-link" aria-current="page" href="?cine='.$film['cine'].'">'.$film['cine'].'</a>';
+                        }
                         echo '</li>';
                         array_push($aux,(string)$film['cine']);
                     }
@@ -51,6 +55,28 @@ if (file_exists('xml/encartelera.xml')) {
         </div>
     </div>
 </nav>
+<!-- carrusel (slider) -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/img_1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/img_2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/img_3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
 <!-- tabla de datos -->
 <div class="row-c">
@@ -59,7 +85,7 @@ if (file_exists('xml/encartelera.xml')) {
             <thead>
                 <tr>
                     <th scope="col">Película</th>
-                    <th scope="col">Descripción</th>
+                    <th scope="col" class="hidden">Descripción</th>
                     <th scope="col">Tema</th>
                 </tr>
             </thead>
@@ -71,7 +97,7 @@ if (file_exists('xml/encartelera.xml')) {
                     if($_GET['cine']==$film['cine']){
                         echo '<tr>';
                         echo '<td>'.$film->title.'</td>';
-                        echo '<td>'.$film->description.'</td>';
+                        echo '<td class="hidden">'.$film->description.'</td>';
                         echo '<td>'.$film->description['tema'].'</td>';
                         echo '</tr>';
                     }
@@ -81,7 +107,7 @@ if (file_exists('xml/encartelera.xml')) {
                 foreach($films->film as $film){
                     echo '<tr>';
                     echo '<td>'.$film->title.'</td>';
-                    echo '<td>'.$film->description.'</td>';
+                    echo '<td class="hidden">'.$film->description.'</td>';
                     echo '<td>'.$film->description['tema'].'</td>';
                     echo '</tr>';
                 }
